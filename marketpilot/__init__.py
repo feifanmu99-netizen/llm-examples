@@ -1,0 +1,1 @@
+"""MarketPilot AI application logic."""

@@ -1,4 +1,28 @@
-.venv
+# Python environments and caches
+.venv/
+venv/
+env/
 __pycache__/
-.DS_Store
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets and local configuration
+.env
+.env.*
+.streamlit/secrets.toml
 secrets.toml
+*.pem
+*.key
+
+# Local output and editor files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
